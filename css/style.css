@@ -1,0 +1,45 @@
+.pending {
+    background-color: cornflowerblue;
+    display: block;
+}
+
+.completed {
+    background-color: darkcyan;
+}
+
+.liStyle{
+    list-style: none;
+}
+
+.remove_button{
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+}
+
+.section {
+    background-color: darksalmon;
+    display: flex;
+    padding:20px;
+    justify-content: center;
+}
+
+.liStyle {
+    margin-right: 20px;
+    margin-left:20px;
+    font-size: 25px;
+}
+
+.checkbox {
+    margin-right: 20px;
+    height:40px;
+}
+
+.input_box{
+    margin:20px;
+}
+
+.listTitles {
+    font-size: 20px;
+    color:hotpink;
+}

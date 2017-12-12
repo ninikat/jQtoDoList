@@ -1,0 +1,32 @@
+<html>
+   <head>
+      <title>
+         To-Do list
+      </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+               <div class="input_box">
+                  <p> <input type="text" placeholder="enter your task" id="task" required> <button class="btn btn-info" id="addItem"> Add </button></p>
+               </div>
+               <div class="card" id="mainCardP">
+                  <p class="listTitles">Pending tasks</p>
+                  <ul id="pendingList" class="list-group">
+                  </ul>
+                  <p id="barfy"></p>
+                  <p class="listTitles">Completed tasks</p>
+                  <ul id="completedList" class="list-group">
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="js/app.js" type="text/javascript"></script> 
+</html>
