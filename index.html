@@ -6,15 +6,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Open+Sans+Condensed:300" rel="stylesheet">
    </head>
    <body>
       <div class="container">
          <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
+              <h2 class="title">To Do List</h2>
+              <div class="card entireCard">
                <div class="input_box">
-                  <p> <input type="text" placeholder="enter your task" id="task" required> <button class="btn btn-info" id="addItem"> Add </button></p>
+                  <p> <input type="text" placeholder="enter your task" id="task" required> <button class="btn myButton" id="addItem"> Add </button></p>
                </div>
-               <div class="card" id="mainCardP">
+               <div class="card mainCard" id="mainCardP">
                   <p class="listTitles">Pending tasks</p>
                   <ul id="pendingList" class="list-group">
                   </ul>
@@ -23,6 +26,7 @@
                   <ul id="completedList" class="list-group">
                   </ul>
                </div>
+                  </div>
             </div>
          </div>
       </div>

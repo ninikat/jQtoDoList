@@ -1,11 +1,8 @@
-.pending {
-    background-color: cornflowerblue;
-    display: block;
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #D4D3C1;
 }
 
-.completed {
-    background-color: darkcyan;
-}
 
 .liStyle{
     list-style: none;
@@ -15,13 +12,18 @@
     border: none;
     background-color: transparent;
     font-size: 10px;
+    color:white;
 }
 
 .section {
-    background-color: darksalmon;
+    background-color: #A6545C;
     display: flex;
     padding:20px;
     justify-content: center;
+    margin: 5px;
+    border:none;
+    color:white;
+    font-weight: bold;
 }
 
 .liStyle {
@@ -31,7 +33,7 @@
 }
 
 .checkbox {
-    margin-right: 20px;
+    margin-right: 16px;
     height:40px;
 }
 
@@ -40,6 +42,28 @@
 }
 
 .listTitles {
-    font-size: 20px;
-    color:hotpink;
+    font-size: 35px;
+    color:#E3A58B;
+    font-weight: bold;
+}
+
+.entireCard {
+    border:none;
+    background-color: #D4D3C1;
+}
+
+.title {
+    margin-top: 20px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+}
+
+.mainCard {
+    border:none;
+    background-color: #36243D;
+}
+
+.myButton{
+    background-color: #36243D;
+    color:white;
 }
